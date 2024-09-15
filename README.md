@@ -97,6 +97,8 @@ Run the application:
 bash
 Copy code
 npm start
+![image](https://github.com/user-attachments/assets/b1ba4c68-f410-46f3-88ec-67a91e053753)
 
 ![image](https://github.com/user-attachments/assets/7b2aabff-45f3-403d-bf83-26b0781e1a19)
+![image](https://github.com/user-attachments/assets/59621dbf-4133-42af-9d0a-54233bd1fbbe)
 
