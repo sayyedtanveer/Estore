@@ -10,14 +10,13 @@ var adminlogin=require('./controllers/adminlogin');
 var admindashboard=require('./controllers/admindashboard');
 var error=require('./controllers/error');
 var logout=require('./controllers/logout');
-var user = require('./controllers/user');
 var checkUser=require('./controllers/checkUser');
 var checkout=require('./controllers/checkout');
 var bodyParser=require('body-parser');
 var expressSession=require('express-session');
 var alertnode=require('alert-node');
 var path = require('path');
-var port=1234;
+var port=4000;
 //COnfigure
 app.set('view engine','ejs');
 

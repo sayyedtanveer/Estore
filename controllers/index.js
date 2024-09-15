@@ -27,7 +27,7 @@ router.all('/productdetails/:id?',function(req,res){
 	 index.productdetails(data,function(result){
 	 	if(result && result!=null)
 	 		{
-	 			res.render('./index/productdetails',{result: result});
+	 			res.render('./index/productdetails',{async: true,result: result});
 	 		}
 	 	else
 	 		{
@@ -43,7 +43,7 @@ router.post('/search',function(req,res){
 	 index.searchproduct(data,function(result){
 	 	if(result && result!=null)
 	 		{
-	 			res.render('./index/index',{result: result});
+	 			res.render('./index/index',{async: true,result: result});
 	 		}
 	 	else 
 	 		{
@@ -60,7 +60,7 @@ router.get('/catagorysearch/:catagory?',function(req,res){
 	 index.searchproductcatagory(data,function(result){
 	 	if(result && result!=null)
 	 		{
-	 			res.render('./index/index',{result: result});
+	 			res.render('./index/index',{async: true,result: result});
 	 		}
 	 	else 
 	 		{
